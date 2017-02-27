@@ -1,0 +1,145 @@
+*{
+	transition : 0.5s all;
+
+}
+
+/*Page Livre d'or*/
+.effetParallax {
+  height :400px; /*pour avoir la photo de hauteur 400*/
+  background: url(../images/effetP.jpg) no-repeat center fixed; 
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height : 600px;
+  background-size: cover; /*pour que sa prenne la largeur de la page.*/
+}
+
+.pageApropos{
+    background-color: #edf1f1 !important;
+	width: 70%; /*largeur*/
+	margin-left : 15%;
+	margin-top :-1.5%; /*pour que la cadre arrive a la photo*/
+}
+
+body{
+	background-color: #B5EAEC !important;
+}
+
+
+h2 , p {
+	color : #268085 !important;
+	font-weight:normal;
+}
+
+
+h3{
+	color : #8b0000 !important;
+	font-weight:normal;
+	
+}
+
+.separateur{
+	margin-top : 40px;
+	height : 150px;
+	background-color : #B5EAEC;
+	width : 2px;
+	float: left;
+	display:inline-table;
+	margin-left : 5%;
+}
+
+.avisD{
+	float: left;
+	display:inline-table;
+	width : 30%;
+	margin-left : 10%;
+}
+
+
+.avisG{
+	float: left;
+	width : 30%;
+	margin-left : 15%;
+}
+
+.UneC{
+	width : 100%;
+	margin-bottom: 50px;
+	height : 250px;
+}
+
+.cadre{
+	font-family : fertigo-pro;	
+	width : 15%;
+	margin-top : 2%;
+	margin-left : 42.5%;
+	padding-top : 20px;
+}
+.cadre h1{
+	font-weight : bold;
+	text-align : center;
+	color : #268085;
+}
+
+
+/*Pour le retressissement de la page*/
+@media screen and (max-width: 1024px){
+   	.pageApropos{
+		width : 100%;
+		margin-left : 0%;
+	}
+	
+	
+	.effetParallax{
+        height : auto;
+    }
+	
+	p, h2, h3{
+		font-size : medium;
+	}
+	
+	.separateur, h2{
+		visibility : hidden; /*cache le separateur*/
+	}
+	.avisG , .avisD{
+		margin-left: 4%;
+		width : 40%;
+	}
+	.UneC{
+		height : 300px;
+	}
+	.cadre{
+		margin-left :0%;
+		width : auto;
+	}
+}
+
+@media screen and (max-width: 350px){
+	
+	.cadre h1{
+		padding-top : 30px;
+	}
+	
+	.avisD, .avisG{
+		width : 90%;
+		display : inline;
+	}
+	
+	.UneC{
+		height : 300px;
+		margin-top : 0%;
+		width : 100%;
+		margin-bottom :0%;
+		
+	}
+	h3{
+		text-align: center;
+	}
+	
+	.pageApropos{
+		background-color : #B5EAEC !important
+	}
+	.effetParallax{
+        display : none;
+    }
+}
+

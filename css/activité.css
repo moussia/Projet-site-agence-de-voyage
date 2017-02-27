@@ -1,0 +1,518 @@
+
+body {
+	background-image: url(../images/fondMexique.jpg);
+	background-size: cover;
+	width: 100%;
+	padding-top: 79px;
+}
+
+
+/*********Barre de navigation***************/
+
+.navbar{
+	margin-bottom: 50px;
+}
+
+.navbar-default {
+	background-color: white;
+}
+
+.menu {
+	background-color: white;
+}
+
+/* style de la barre de navigation */
+.navbar-default .navbar-nav > li > a {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #278085;
+	font-family: Raleway;
+	font-size: 33px;
+	text-align: center;
+}
+
+/* lorsqu'on passe la souris sur l'un des titres */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus 
+{
+	color: #B5EAEC;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus 
+{
+	color: #B5EAEC;
+	background-color: white;
+}
+
+/* logo présent sur la barre de navigation */
+.navbar-brand {
+	margin-top: 10px;
+	padding-right: 35px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+  color: #B5EAEC;
+}
+
+/* style lorsqu'on déroule la barre de navigation */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #278085;
+    background-color: white;
+	font-size: 25px;
+	font-family: Raleway;
+	text-align: left;
+}
+
+/* lorsqu'on passe la souris sur l'un des titres du menu déroulant */  
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #B5EAEC;
+}
+
+/* lorsqu'on déroule le menu, le titre de la page sur laquelle on se trouve 
+   est de cette couleur */
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #B5EAEC;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu {
+	margin-left: -30px;
+}
+
+
+/**********Section de la page mexique******************/
+
+.page{
+	margin-top: 25px;
+	margin-bottom: 35px;
+	padding-bottom: 35px;
+	width : 85%;
+	height : auto;
+	background-color: #B5EAEC;
+	opacity: 0.96;
+}
+
+
+/**********Titre de la page****************************/
+
+.titrePage h1 {
+	color: #278085;
+	text-align: center;
+	font-size: 45px;
+	font-family: Raleway;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+/**********Introduction à la page**********************/
+
+.intro{
+	background-color : #F2F2F2;
+	width : 92%;
+	margin-bottom: 35px;
+	padding: 0;
+}
+
+.intro img{
+	width:100%;
+}
+
+.colonneImage {
+	padding: 0;
+}
+
+#texteIntro h1{
+	margin-top: 25px;
+	font-size: 27px;
+	font-family: Raleway;
+	color: #278085;
+	text-align: center;
+}
+
+#texteIntro p{
+	margin-top: 35px;
+	font-size: 19px;
+	font-family: Raleway;
+	text-align: center;
+	color: #278085;
+}
+
+
+/**********Activités de la page****************/
+
+.activité {
+	width: 92%;
+}
+
+.activité p{
+	font-size: 15px;
+	font-family: Raleway;
+	color: #278085;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.colonne1 {
+	background-color: #F2F2F2;
+	padding: 0;	
+}
+
+.colonne1 h1 {
+	font-size: 30px;
+	font-family: Raleway;
+	color: #278085;
+	text-align: center;
+}
+
+.colonne1 h2 {
+	margin-top: 10px;
+	font-size: 25px;
+	font-family: Raleway;
+	font-weight: normal;
+	color: #278085;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.colonne2 {
+	background-color: #F2F2F2;
+	padding: 0;
+}
+
+.colonne2 h1 {
+	font-size: 30px;
+	font-family: Raleway;
+	color: #278085;
+	text-align: center;
+}
+
+.colonne2 h2 {
+	margin-top: 10px;
+	font-size: 25px;
+	font-family: Raleway;
+	font-weight: normal;
+	color: #278085;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.activité img{
+	width:100%;
+}
+
+
+/*************Lien de Reservation***************/
+
+.reserver h1{
+	font-family: Raleway;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.reserver {
+	width: 100%;
+	padding-top: 20px;
+}
+
+.colonneLigne1 {
+	margin-top: 35px;
+	width: 45%;
+	line-height: 2px;
+	background-color: #278085;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.colonneLigne2 {
+	margin-left: 15px;
+	margin-top: 35px;
+	width: 45%;
+	line-height: 2px;
+	background-color: #278085;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.colonnereserv a {
+	text-decoration: none;
+	color: #278085;
+}
+
+.colonnereserv a:hover {
+	color: red;
+}
+
+/************** Footer *****************/
+
+.hautPage {
+	height:21%;
+	width: 100%;
+	background-color: #2D4870;
+}
+
+.glyphicon-menu-up {
+	padding-top: 9px;
+	color: red;
+	font-size: 40px;
+}
+
+.colonneTexte1{
+	color: white;
+	font-size: 25px;
+	font-family:Raleway;
+}
+
+.colonneTexte2{
+	color: black;
+	font-size: 18px;
+	font-family:Raleway;
+}
+
+
+
+/****************MEDIA QUERIES*****************/
+
+@media screen and (max-width: 1465px){
+	
+	#texteIntro h1{
+		font-size: 27px;
+		margin-top: 23px;
+	}
+	
+	#texteIntro p{
+		margin-top: 25px;
+		margin-left: 5px;
+		font-size: 18px;
+	}
+	
+	.colonneLigne1 {
+		width: 44%;
+	}
+	
+	.colonneLigne2 {
+		margin-left: 25px;
+	}
+		
+}
+
+@media screen and (max-width: 1324px){
+		
+	#texteIntro h1{
+		font-size: 24px;
+		margin-top: 18px;
+	}
+	
+	#texteIntro p{
+		margin-top: 18px;
+		margin-left: 5px;
+		font-size: 16px;
+		text-align: left;
+	}	
+	
+	.reserver h1 {
+		font-size: 23px;
+	}
+	
+	.colonneLigne1 {
+		width: 44%;
+	}
+	
+	.colonneLigne2 {
+		width: 43%;
+		margin-left: 35px;
+	}
+	
+}
+
+@media screen and (max-width: 1150px){
+	
+	#texteIntro h1{
+		font-size: 22px;
+		margin-top: 10px;
+	}
+	
+	#texteIntro p{
+		margin-top: 18px;
+		margin-left: 5px;
+		font-size: 14px;
+		text-align: left;
+	}	
+	
+	.reserver h1 {
+		font-size: 22px;
+	}
+	
+	.colonneLigne1 {
+		width: 42%;
+		margin-right: 8px;
+	}
+	
+	.colonneLigne2 {
+		width: 41%;
+		margin-left: 42px;
+	}
+		
+}
+
+@media screen and (max-width: 1010px){
+	
+	#texteIntro h1{
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	
+	#texteIntro p{
+		margin-top: 14px;
+		margin-left: 5px;
+		font-size: 12.8px;
+		text-align: left;
+	}
+	
+	.intro img {
+		width: 100%;
+	}
+	
+	.colonneLigne1 {
+		width: 41%;
+		margin-right: 2px;
+	}
+	
+	.colonneLigne2 {
+		width: 41%;
+		margin-left: 53px;
+	}
+	
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px){
+	
+	.navbar-brand {
+		padding-right: 10px;
+		font-size: 25px;
+	}
+	
+	.navbar-default .navbar-nav > li > a {
+		font-size: 26px;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		font-size: 20px;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		margin-left: -23px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.navbar-brand {
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: 14px;
+	}
+	
+	.navbar-default .navbar-nav > li > a {
+		font-size: 21px;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		font-size: 19px;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		margin-left: -33px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 910px){
+	
+	#texteIntro p{
+		margin-top: 10px;
+		margin-left: 5px;
+		font-size: 10.5px;
+		text-align: left;
+	}
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+	.navbar-brand {
+		margin-top: 1px;
+		padding-left: 18px;
+		font-size: 27px;
+	}
+	
+	.navbar-default .navbar-nav > li > a {
+		text-align: center;
+		font-size: 28px;
+	}
+	
+	/* menu déroulant */
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		background-color: #F2F2F2;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		font-size: 25px;
+		background-color: #F2F2F2;
+	}
+		
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		background-color: #F2F2F2;
+	}/* fin menu déroulant */
+	
+	
+	#texteIntro h1{
+		margin-top: 10px;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	#texteIntro p{
+		margin-top: 15px;
+		font-size: 15px;
+		text-align: center;
+	}
+	
+	.colonne1 {
+		padding-top: 3px;
+	}
+	
+	.colonne2 {
+		padding-top: 3px;
+		margin-top: 35px;
+	}
+	
+	.reserver {
+		width: 100%;
+		padding-top: 30px;
+	}
+		
+	.colonneLigne1 {
+		margin-top: 0px;
+		width: 100%;
+		margin-right: 0px;
+	}
+	
+	.colonneLigne2 {
+		margin-top: 20px;
+		width: 100%;
+		margin-left: 0px;
+	}
+	
+}
+
+

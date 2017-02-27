@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+}
+
+/*************** Image Paralax *********/
+
+.img-1, .img-2, .img-3, .img-4, .img-f {
+  position: relative;
+  opacity: 0.95;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.img-1 {
+  /*background-image: url("../images/fond.jpg");*/
+  background-color: #B5EAEC;
+  min-height: 500px;
+}
+
+.img-2 {
+ background-image: url("../images/fond.jpg");
+  min-height: 40px;
+}
+
+.img-3 {
+  background-image: url("../images/fond.jpg");
+  min-height: 280px;
+  padding-bottom: 30px;
+}
+
+.img-video {
+	background-color: #EFEFEF;
+	min-height: 40px;
+}
+
+.img-4 {
+  background-image: url("../images/fond.jpg");
+  min-height: 380px;
+}
+
+.img-f {
+  background-image: url("../images/fond.jpg");
+  min-height: 30px;
+}
+

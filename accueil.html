@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Accueil </title>
+		<meta name="author" content="Antoine Chaudière">  <!-----------Auteur de la page----------->
+		<meta name="author" content="Jean-Mikaël Champeval">  <!-----------Auteur de la page----------->
+		<meta name="author" content="Guilhem Allaman">  <!-----------Auteur de la page----------->
+		<meta http-equiv="Content-Type" content="text/html charset=utf-8"/>
+		<meta charset="utf-8">
+        <!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/Paralax.css" />
+		<link rel="stylesheet" type="text/css" href="css/sprite.css" />
+		<link rel="stylesheet" type="text/css" href="css/accueil.css" />
+	</head>
+	
+    <header>	
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class = "container menu">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="accueil.html">ExoticTrip</a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="accueil.html"><i>Accueil</i></a></li>
+						<li><a href="destinations.html"><i>Destinations</i></a></li>
+						<li class="dropdown">
+							<a href ="" class="dropdown-toggle" data-toggle="dropdown"> <i>Activités</i><span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="mexique.html"><center><i>Mexique</i></center></a></li>
+								<li><a href="iles.html"><center><i>Iles Fidji</i></center></a></li>
+								<li><a href="israel.html"><center><i>Israel</i></center></a></li>
+								<li><a href="#"><center><i>Laos</i></center></a></li>
+								<li><a href="#"><center><i>Maroc</i></center></a></li>
+								<li><a href="#"><center><i>Nouvelle-Zélande</i></center></a></li>
+								<li><a href="#"><center><i>Thaïlande</i></center></a></li>
+								<li><a href="#"><center><i>Venezuela</i></center></a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i>Réserver</i></a></li>
+						<li><a href="Livre_d'or.html"><i>Livre d'or</i></a></li>
+						<li><a href="A_propos.html"><i>A propos</i></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+			
+	<body>
+		<section id="haut" name="haut"></section> <!--Ancre-->
+		<div class = "container diapo">
+			<div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+				<div class="carousel-caption">
+						<h1>ExoticTrip</h1>
+						<p>Vers de nouveaux horizons</p>
+				</div>
+				<ol class="carousel-indicators">
+					<li data-target="Carousel" data-slide-to="0" class="active"></li>	
+					<li data-target="Carousel" data-slide-to="1"></li>
+					<li data-target="Carousel" data-slide-to="2"></li>
+				</ol>
+				
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/image1.jpg">
+					</div>
+					<div class="item">
+						<img src="images/image2.jpg">
+					</div>
+					<div class="item">
+						<img src="images/image3.jpg">
+					</div>
+				</div>
+			</div>
+			<!--Boutons de déplacement du diapo-->
+			<a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+			</a>
+			<a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+			</a>
+		</div>
+		
+		<div class="bandeBlanche">
+			<h3 style="text-align:center;">Nos suggestions de destinations</h3>
+		</div>
+		
+			<div class="img-1">
+			<div class = "container mosaiqueDest">
+				<div class = "row">
+					<div class = "col-md-3 col-xs-6 colonneDest">
+						<div class ="activitébackground">
+						<a href="iles.html">
+							<img src="images/fidjiAccueil.png" alt="Mountain View">
+						</a>
+						<a href="iles.html">
+							<p>Iles Fidji</p>
+						</a>
+						</div>
+					</div>
+					<div class = "col-md-3 col-xs-6 colonneDest">
+						<div class ="activitébackground">
+						<a href="">
+							<img src="images/laosAccueil.jpg" alt="Mountain View">
+						</a>
+						<a href ="">
+							<p>Laos</p>
+						</a>
+						</div>
+					</div>
+					<div class = "col-md-3 col-xs-6 colonneDest">
+						<div class ="activitébackground">
+						<a href="">
+							<img src="images/marocAccueil.png" alt="Mountain View">
+						</a>
+						<a href="">
+							<p>Maroc</p>
+						</a>
+						</div>
+					</div>
+					<div class = "col-md-3 col-xs-6 colonneDest">
+						<div class ="activitébackground">
+						<a href="israel.html">
+							<img src="images/israelAccueil.png" alt="Mountain View">
+						</a>
+						<a href="israel.html">
+							<p>Israel</p>
+						</a>
+						</div>
+					</div>
+				</div>
+
+				<div class = "row">
+					<div class = "col-md-3 col-xs-6 colonneDest">
+						<div class ="activitébackground">
+						<a href ="">
+							<img src="images/venezuelaAccueil.jpg" alt="Mountain View">
+						</a>
+						<a href="">
+							<p>Venezuela</p>
+						</a>
+						</div>
+					</div>
+					<div class = "col-md-3 col-xs-6 colonneDest">
+						<div class ="activitébackground">
+						<a href="">
+							<img src="images/thailandeAccueil.jpg" alt="Mountain View">
+						</a>
+						<a href="">
+							<p>Thaïlande</p>
+						</a>
+						</div>
+					</div>
+
+					<div class = "col-md-3 col-xs-6 colonneDest">
+						<div class ="activitébackground">
+							<a href="Mexique.html">
+								<img src="images/mexiqueAccueil.jpg" alt="Mountain View">
+							</a>
+							<a href="Mexique.html">
+								<p>Mexique</p>
+							</a>
+						</div>
+					</div>
+
+					<div class = "col-md-3 col-xs-6 colonneDest">
+						<div class ="activitébackgroundNZ">
+						<a href="">
+							<img src="images/nouvellezelandeAccueil.jpg" alt="Mountain View">
+						</a>
+						<a href="">
+							<p>Nouvelle Zélande</p>
+						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bandeBlanche">
+				<h3 style="text-align:center;">Un aperçu de ce qui vous attend...</h3>
+			</div>
+		<div class="img-video">
+			<div class="container vidéo">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="embed-responsive embed-responsive-16by9"> <!--affichage 16:9-->
+							<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/z4WgB08Szjg"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bandeBlanche">
+			<h3 style="text-align:center;">Des témoignages de nos voyageurs...</h3>
+		</div>
+
+		<div class="img-2"></div>
+
+		<div class="img-3">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-md-4 colonne">
+						<div class ="background">
+							<a href="Livre_d'or.html#avisJM">
+								<p class="contenuavis">“ Voyage magnifique ! Hotel de folie, très satisfait par le séjour. Nous avons découvert ... “</p>
+								<p class="nomavis">-<i> Jean-Marc</i></p>
+							</a>
+						</div>
+					</div>
+					<div class = "col-md-4 colonne">
+						<div class ="background">
+							<a href="Livre_d'or.html#avisAntoine">
+								<p class="contenuavis">“ Un voyage extraordinaire. Une nouvelle culture que nous ne connaissions pas mais ... “</p>
+								<p class="nomavis">-<i> Antoine</i></p>
+							</a>
+						</div>
+					</div>
+					<div class = "col-md-4 colonne">
+						<div class ="background">
+							<a href="Livre_d'or.html#avisIsabelle">
+								<p class="contenuavis">“ Un pays très beau par sa nature et ces citoyens vraiment adorable. Nous avons ... “</p>
+								<p class="nomavis">-<i> Isabelle</i></p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class = "col-md-offset-2 col-md-2 follow">
+				<p style="font-size:24px;">Suivez-nous :</p>
+			</div>
+			<div class = "col-md-4 follow">
+				<div class="icone">
+					<a href="https://fr-fr.facebook.com/" target="_blank"><i class="sprite sprite-Facebook"></i></a>
+					<a href="https://plus.google.com/collections/featured" target="_blank"><i class="sprite sprite-GooglePlus"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class="sprite sprite-Instagram"></i></a>
+					<a href="https://twitter.com/?lang=fr" target="_blank"><i class="sprite sprite-Twitter"></i></a>
+					<a href="https://www.youtube.com/?gl=FR&hl=fr" target="_blank"><i class="sprite sprite-Youtube"></i></a>
+				</div>
+			</div>
+			<div class = "col-md-2 follow">
+				<p style="font-size:20px;">
+					Nous contacter :
+				</p>
+				<p>
+					exotictrip@gmail.com <br>
+					01 74 85 66 54
+				</p>
+			</div>	
+		</footer>
+		
+		<div class="container hautPage">
+				<div class="row">
+					<div class="col-sm-2 col-sm-offset-5 colonneIcon">
+						<a href="#haut"><center><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></center></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 colonneTexte1">
+						<center><p> Retour en haut </p></center>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 colonneTexte2">
+						<center><p> © ExoticTrip </p></center>
+					</div>
+				</div>
+		</div>
+	</body>
+</html>
