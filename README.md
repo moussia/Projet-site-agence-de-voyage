@@ -6,4 +6,6 @@ J'ai dû réaliser en groupe un site internet d'agence de voyages.
 Nous devions d'abord le crée avec Wix puis ensuite le code.
 Je vous laisse le découvrir.
 
+Le voici sous Wix : http://allamanguilhem.wixsite.com/agencevoyage
+
 Moussia.
