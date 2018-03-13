@@ -1,0 +1,70 @@
+/******************* SPRITE ***************/
+
+
+.sprite {
+    background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+	margin-top:1%;
+	
+}
+
+.sprite-Facebook {
+    width: 43px;
+    height: 50px;
+    background-position: -24px -24px;
+}
+
+.sprite-GooglePlus {
+    width: 43px;
+    height: 50px;
+    background-position: -91px -24px;
+}
+
+.sprite-Instagram {
+    width: 43px;
+    height: 50px;
+    background-position: -158px -24px;
+}
+
+.sprite-Twitter {
+    width: 43px;
+    height: 50px;
+    background-position: -225px -24px;
+}
+
+.sprite-Youtube {
+    width: 43px;
+    height: 50px;
+    background-position: -292px -24px;
+}
+
+.sprite-Facebook:hover {
+    width: 43px;
+    height: 50px;
+    background-position: -24px -122px;
+}
+
+.sprite-GooglePlus:hover {
+    width: 43px;
+    height: 50px;
+    background-position: -91px -122px;
+}
+
+.sprite-Instagram:hover {
+    width: 43px;
+    height: 50px;
+    background-position: -158px -122px;
+}
+
+.sprite-Twitter:hover {
+    width: 43px;
+    height: 50px;
+    background-position: -225px -122px;
+}
+
+.sprite-Youtube:hover {
+    width: 43px;
+    height: 50px;
+    background-position: -292px -122px;
+}

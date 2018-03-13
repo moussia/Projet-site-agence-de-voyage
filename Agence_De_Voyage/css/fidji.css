@@ -1,0 +1,31 @@
+
+body {
+	background-image: url(../images/fondIles.jpg);
+	background-size: cover;
+	width: 100%;
+	padding-top: 79px;
+}
+
+.colonne1 {
+	background-color: #F2F2F2;
+	padding: 0 0 5px 0;	
+}
+
+.colonne2 {
+	background-color: #F2F2F2;
+	padding: 0 0 5px 0;
+}
+
+@media screen and (max-width: 767px) {
+	
+	.colonne1 {
+		padding-top: 6px;
+	}
+	
+	.colonne2 {
+		padding-top: 6px;
+	}
+	
+}
+
+
