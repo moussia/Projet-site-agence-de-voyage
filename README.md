@@ -1,4 +1,4 @@
-# Projet-site-agence-de-voyage
+# ExoticTrip - Agence de voyage
 HTML - Mais pas que.
 
 Étant en 2ème année a l'IUT Paris Descartes.
